@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wist Labs — Apps &amp; Games</title>
+  <meta name="description" content="An independent studio for apps and games.">
+  <meta name="theme-color" content="#07080a">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Wist Labs">
+  <meta property="og:title" content="Wist Labs — Apps &amp; Games">
+  <meta property="og:description" content="An independent studio for apps and games.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Wist Labs — Apps &amp; Games">
+  <meta name="twitter:description" content="An independent studio for apps and games.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/space-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="script.js" defer></script>
+  <noscript>
+    <style>
+      @media (max-width: 820px) {
+        .header-inner { height: auto; flex-wrap: wrap; padding-block: 0.8rem; }
+        .site-nav {
+          position: static;
+          visibility: visible;
+          flex-direction: row;
+          gap: 0.25rem;
+          padding: 0;
+          border: 0;
+          background: none;
+          box-shadow: none;
+          opacity: 1;
+          transform: none;
+        }
+        .site-nav a { padding: 0.55rem 0.65rem; }
+        .hero { padding-top: calc(var(--header-h) + 4rem); }
+      }
+    </style>
+  </noscript>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="page-glow" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <div class="shell header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">W</span>
+        <span class="brand-name">Wist Labs</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu" data-menu-toggle>
+        <span class="menu-line" aria-hidden="true"></span>
+        <span class="menu-line" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary" data-nav>
+        <a href="index.html#studio">Studio</a>
+        <a class="nav-contact" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero shell" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title" data-reveal>
+          <span class="line">Apps and games.</span>
+          <span class="line">By <span class="accent-word">Wist Labs.</span></span>
+        </h1>
+
+        <p class="hero-lede" data-reveal style="--delay: 90ms">
+          An independent studio for apps and games.
+        </p>
+
+        <div class="hero-actions" data-reveal style="--delay: 180ms">
+          <a class="button button-primary" href="contact.html">
+            Get in touch
+            <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+          <a class="button button-quiet" href="#studio">The studio</a>
+        </div>
+      </div>
+
+      <div class="hero-art" data-reveal style="--delay: 150ms">
+        <div class="stage" aria-hidden="true">
+          <div class="stage-glow"></div>
+          <div class="stage-grid"></div>
+
+          <span class="ring ring-outer"></span>
+          <span class="ring ring-dashed"></span>
+          <span class="ring ring-inner"></span>
+
+          <span class="crosshair crosshair-tl"></span>
+          <span class="crosshair crosshair-tr"></span>
+          <span class="crosshair crosshair-bl"></span>
+          <span class="crosshair crosshair-br"></span>
+
+          <div class="core">
+            <span class="core-label">WIST LABS</span>
+            <span class="core-letter">W</span>
+            <span class="core-label core-label-bottom">APPS + GAMES</span>
+          </div>
+
+          <span class="orbit-tag orbit-tag-apps">APPS</span>
+          <span class="orbit-tag orbit-tag-games">GAMES</span>
+          <span class="spark spark-one"></span>
+          <span class="spark spark-two"></span>
+          <span class="spark spark-three"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section studio" id="studio" aria-labelledby="studio-title">
+      <div class="shell">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal>01 / Studio</p>
+          <div class="section-heading">
+            <h2 id="studio-title" data-reveal style="--delay: 70ms">The studio.</h2>
+          </div>
+        </div>
+
+        <dl class="studio-facts" data-reveal style="--delay: 130ms">
+          <div>
+            <dt>Focus</dt>
+            <dd>Apps &amp; games</dd>
+          </div>
+          <div>
+            <dt>Releases</dt>
+            <dd class="fact-accent">None yet</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <div class="footer-top">
+        <a class="brand" href="#top">
+          <span class="brand-mark" aria-hidden="true">W</span>
+          <span class="brand-name">Wist Labs</span>
+        </a>
+
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="index.html#studio">Studio</a>
+          <a href="contact.html">Contact</a>
+          <a href="mailto:apexblaze7a@gmail.com">Email</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> Wist Labs. All rights reserved.</p>
+        <p>No cookies. No trackers.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

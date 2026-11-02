@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found — Wist Labs</title>
+  <meta name="description" content="This page does not exist. Return to Wist Labs.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#07080a">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/space-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="script.js" defer></script>
+  <noscript>
+    <style>
+      @media (max-width: 820px) {
+        .header-inner { height: auto; flex-wrap: wrap; padding-block: 0.8rem; }
+        .site-nav {
+          position: static;
+          visibility: visible;
+          flex-direction: row;
+          gap: 0.25rem;
+          padding: 0;
+          border: 0;
+          background: none;
+          box-shadow: none;
+          opacity: 1;
+          transform: none;
+        }
+        .site-nav a { padding: 0.55rem 0.65rem; }
+      }
+    </style>
+  </noscript>
+</head>
+<body class="error-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="page-glow" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <div class="shell header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">W</span>
+        <span class="brand-name">Wist Labs</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu" data-menu-toggle>
+        <span class="menu-line" aria-hidden="true"></span>
+        <span class="menu-line" aria-hidden="true"></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary" data-nav>
+        <a href="index.html#studio">Studio</a>
+        <a class="nav-contact" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="error-main shell" id="main" tabindex="-1">
+    <div class="error-inner">
+      <p class="eyebrow"><span class="signal" aria-hidden="true"></span>Error 404</p>
+      <h1>Page not found.</h1>
+      <p class="error-lede">
+        This page doesn’t exist. Head back to the homepage.
+      </p>
+      <a class="button button-primary" href="index.html">
+        Back to Wist Labs
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+      </a>
+    </div>
+    <span class="error-code" aria-hidden="true">404</span>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <div class="footer-bottom">
+        <p>© <span data-year>2026</span> Wist Labs. All rights reserved.</p>
+        <p>No cookies. No trackers.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
